@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F1F8E9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="#f285ec"
+        android:text="Tap To Call" />
+
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="#D50000"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:onClick="police"
+        android:text="Police" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnAmbulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnPolice"
+        android:text="Ambulance"
+        android:onClick="ambulance"
+        />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnFire"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnAmbulance"
+        android:onClick="fire"
+        android:text="Fire" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnWomen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnFire"
+        android:onClick="women"
+        android:text="Women Help Line" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnCyber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnWomen"
+        android:onClick="cyber"
+        android:text="Cyber Crime" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnTerr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCyber"
+        android:onClick="terr"
+        android:text="Anti-Terrorist" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnTerr"
+        android:onClick="blood"
+        android:text="Blood Bank" />
+
+    <Button
+        android:textColor="#D50000"
+        android:id="@+id/btnAids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnBlood"
+        android:onClick="aids"
+        android:text="Aids HelpLine" />
+
+    <TextView
+        android:fontFamily="casual"
+        android:id="@+id/contact"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:gravity="right"
+        android:text="Contact Me"
+        android:textColor="#0c87b7"
+        android:textSize="24dp" />
+
+</RelativeLayout>
